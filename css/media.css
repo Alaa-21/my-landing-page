@@ -1,0 +1,337 @@
+@media (max-width: 1024px) {
+  .text-container h1 {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  .text-container p {
+    width: 340px;
+  }
+  .text-container-bottom p {
+    font-family: var(--rubik);
+    max-width: 250px;
+    font-size: 13px;
+  }
+  #group {
+    position: absolute;
+    left: 0;
+  }
+  /* AFTER ROBOT */
+  .video-bg-container {
+    position: relative;
+    display: block;
+    margin-right: 0.8rem;
+  }
+  #background {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    z-index: -1;
+  }
+  #player {
+    position: absolute;
+    top: -5px;
+    left: 3.4rem;
+  }
+  .text-container-bottom {
+    margin-top: 3rem;
+  }
+  /* Companies */
+  .stars .left {
+    left: -15rem;
+  }
+  .companies .row {
+    margin-left: 5rem;
+  }
+  .companies .company {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .companies .company:last-of-type {
+    margin-left: 0rem;
+  }
+
+  /* SERVICES */
+  .services .service {
+    margin-top: 3rem;
+  }
+  .single-service {
+    margin-top: 1rem;
+  }
+  #chart .row {
+    margin-left: 0rem;
+  }
+  #money-saving h2 {
+    color: var(--T2);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  /* Projects */
+  #projects h2 {
+    font-size: 33px;
+  }
+  .investing-container {
+    margin-left: 0rem;
+  }
+  .card-text p {
+    font-size: 14px;
+    max-width: 370px;
+  }
+  .sales {
+    width: 100%;
+    position: absolute;
+    right: -10%;
+    top: 0;
+  }
+  .people-container {
+    margin-left: 0rem;
+  }
+  .card-images-container {
+    margin-bottom: 2rem;
+  }
+  /* Newsteller */
+  .form {
+    width: 800px;
+    height: 324px;
+    position: absolute;
+    top: 60px;
+    left: -1rem;
+  }
+  /* FOOTER */
+  footer {
+    padding-bottom: 5rem;
+  }
+  footer .row .col-6 {
+    margin-bottom: 2rem;
+  }
+  /* .services .first-paragraph {
+  } */
+}
+
+@media (max-width: 768px) {
+  .first-buttons {
+    display: none !important;
+  }
+  .header-container {
+    margin-top: 3rem;
+  }
+  .text-container h1 {
+    font-size: 30px;
+  }
+  .text-container-bottom {
+    position: relative;
+    top: -6.25rem;
+    left: 10rem;
+  }
+  #robot {
+    display: none;
+  }
+  #chart h2 {
+    text-align: center;
+  }
+  #chart p {
+    text-align: center;
+  }
+  #chart .learn-more {
+    width: 100%;
+
+    margin: 0 auto;
+  }
+  .chart-img-container {
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+    width: 90%;
+  }
+  #money-saving h2 {
+    font-size: 30px;
+  }
+  .card-text h2 {
+    text-align: center;
+  }
+  .card-text p {
+    max-width: none;
+    text-align: center;
+  }
+  .card-text .learn-more {
+    width: 100%;
+
+    margin: 0 auto;
+  }
+
+  .card-section {
+    position: relative;
+    left: -80px;
+    top: 40px;
+  }
+  .sales {
+    width: 75%;
+    position: absolute;
+    left: 30%;
+    top: 0;
+  }
+  .position-relative {
+    left: 10%;
+  }
+  .info {
+    margin-top: 2rem;
+  }
+  .form {
+    left: -8rem;
+  }
+  footer .row .col-6 {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 575px) {
+  #chart {
+    margin-top: 4rem;
+  }
+  #intro {
+    font-size: 15px;
+  }
+  #money-saving p {
+    font-size: 12px;
+  }
+  #projects {
+    margin: top 3rem;
+  }
+  .sales {
+    width: 100%;
+    left: 20%;
+  }
+  .position-relative {
+    left: 0;
+  }
+  .form {
+    width: 100%;
+    left: 0;
+    padding-bottom: 3rem;
+  }
+  form input {
+    background-color: #f6f6f6;
+    opacity: 0.2;
+    color: #fff;
+    max-width: 500px;
+    min-width: 390px;
+    margin: 0 0 0 5rem;
+    height: 56px;
+    border-radius: 5px;
+    padding-left: 1.4rem;
+  }
+  .submit {
+    position: absolute;
+    top: 14.1rem;
+    width: 92% !important;
+    height: 56px !important;
+    border-radius: 5px;
+    right: 20px;
+  }
+  .spam {
+    margin-top: 10px;
+    position: absolute;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    top: 17.5rem;
+  }
+  footer {
+    margin-top: 0;
+  }
+  footer .row {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 425px) {
+  .text-container h1 {
+    font-size: 20px;
+  }
+  .text-container p {
+    width: 265px;
+    font-size: 15px;
+  }
+  .text-container-bottom {
+    position: relative;
+    top: 1rem;
+    left: 0rem;
+  }
+  .text-container-bottom p {
+    margin-bottom: 1.4rem;
+  }
+  .text-container-bottom a {
+    margin-bottom: 1.4rem;
+  }
+  .companies .row {
+    margin-left: -1rem;
+  }
+  .flipped-star {
+    width: 300px;
+    /* object-fit: cover; */
+  }
+  #chart h2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  #money-saving {
+    margin-top: 1rem;
+  }
+  #money-saving h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #projects {
+    margin-top: 2rem;
+  }
+  #projects h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .porjects-second-container {
+    margin-top: 0rem !important;
+  }
+  .card-images-container {
+    width: 100%;
+  }
+  .card-images-container .people {
+    width: 100%;
+  }
+  .img-left-dots {
+    display: none;
+  }
+  .feature {
+    width: 100% !important;
+  }
+  .news-teller {
+    margin-top: 0;
+  }
+  .form {
+    height: 300px;
+  }
+  .form h3 {
+    font-size: 1.1rem;
+    position: absolute;
+    top: 3rem;
+  }
+  .form p {
+    font-size: 12px;
+    position: absolute;
+    top: 5rem;
+  }
+  form input {
+    min-width: 290px;
+    position: absolute;
+    position: absolute;
+    left: -4.5rem !important;
+    top: 8rem;
+  }
+  .submit {
+    top: 12rem;
+    width: 300px !important;
+    left: -2px;
+  }
+  .spam {
+    position: absolute !important;
+    top: 15.5rem !important;
+  }
+}
