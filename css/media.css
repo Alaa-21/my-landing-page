@@ -242,6 +242,11 @@
     margin-top: 3rem;
     margin-left: 3rem;
   }
+  #chart .chart-img,
+  .card-section,
+  .card-images-container {
+    display: none;
+  }
 }
 @media (max-width: 425px) {
   .text-container h1 {
