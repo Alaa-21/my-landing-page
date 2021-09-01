@@ -254,7 +254,8 @@ form .btn {
   height: 48px;
 }
 #chart .chart-img {
-  width: 80%;
+  width: 125%;
+  margin-top: -4rem;
 }
 .flipped-star {
   position: absolute;
